@@ -2,7 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
+.app__form{
+  padding-top: 10px;
+  z-index: 1;
+  background-color: #e9e9eb;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.app__formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__input{
+  flex: 1;
+}
+
+.app__iconButton{
+  flex: 0;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +58,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
